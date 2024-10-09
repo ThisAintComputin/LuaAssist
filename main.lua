@@ -1,2 +1,2 @@
---https://github.com/ThisAintComputin/LuaAssist/blob/main/script.rbxm
-loadstring(game:HttpGet("https://github.com/ThisAintComputin/LuaAssist/blob/main/script.rbxm"))()
+local obj = loadstring(game:HttpGet("https://github.com/ThisAintComputin/LuaAssist/raw/refs/heads/main/script.rbxm"))()
+obj.Parent = game.StarterGui
